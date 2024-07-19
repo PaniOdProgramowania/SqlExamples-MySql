@@ -35,7 +35,7 @@ public class DancersApplication {
 		System.out.println("new dance play - Storm - added");
 		System.out.println(newDancePlay);
 		System.out.println(dancersPlayRepository.findById(newDancePlay.getDancePlayId()));
-		while (true) {}
+
 	}
 
 }
